@@ -54,6 +54,8 @@ document.getElementById('apply-btn').addEventListener('click', function () {
     const totalPrice = document.getElementById('total');
     const totalPriceValue = totalPrice.innerText;
 
+    promoCode.value = '';
+
     if (promoCodeText == 'stevekaku') {
         const discount = totalPriceValue * 20 / 100;
         totalPrice.innerText = discount;

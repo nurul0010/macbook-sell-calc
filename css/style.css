@@ -1,0 +1,10 @@
+#main{
+    display: flex;
+}
+#pic-section{
+    margin-left:50px;
+    margin-top: 30px;
+}
+#calc-section{
+    padding: 20px;
+}
